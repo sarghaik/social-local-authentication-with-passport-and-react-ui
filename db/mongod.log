@@ -1,0 +1,15 @@
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten] MongoDB starting : pid=10614 port=27017 dbpath=/home/hsargsyan/Auth/db/data 64-bit host=hsargsyan-Inspiron-3542
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten] db version v3.2.0
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten] git version: 45d947729a0315accb6d4f15a6b06be6d9c19fe7
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten] modules: none
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten] build environment:
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten]     distmod: ubuntu1404
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-03-12T23:53:13.512+0400 I CONTROL  [initandlisten] options: { storage: { dbPath: "/home/hsargsyan/Auth/db/data" }, systemLog: { destination: "file", path: "/home/hsargsyan/Auth/db/mongod.log" } }
+2018-03-12T23:53:13.533+0400 E NETWORK  [initandlisten] listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2018-03-12T23:53:13.533+0400 E NETWORK  [initandlisten]   addr already in use
+2018-03-12T23:53:13.533+0400 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-03-12T23:53:13.533+0400 I CONTROL  [initandlisten] dbexit:  rc: 48

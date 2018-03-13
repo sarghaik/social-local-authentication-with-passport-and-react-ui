@@ -16,11 +16,3 @@ const mongod = spawn('mongod', ["--dbpath", dbPath, "--logpath", logPath], {
     env: process.env,
     stdio: 'ignore'
 }) ;
-
-//
-// Run the app
-//
-// spawn('node', [`${__dirname}/www`], {
-//     env: process.env,
-//     stdio: 'inherit'
-// });
